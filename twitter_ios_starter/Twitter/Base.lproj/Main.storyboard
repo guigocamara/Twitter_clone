@@ -141,13 +141,13 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Home" id="dQB-UP-bEs">
                         <barButtonItem key="leftBarButtonItem" title="Logout" id="wGV-GK-gZ9">
-                            <color key="tintColor" red="0.1137254902" green="0.63137254899999995" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <action selector="onLogout:" destination="792-Rm-K3G" id="eby-nA-VwR"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Tweet" id="rCg-8j-P2j">
-                            <color key="tintColor" red="0.1137254902" green="0.63137254899999995" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <segue destination="Kyo-ad-WN7" kind="presentation" id="olN-DQ-Vp3"/>
                             </connections>
@@ -158,7 +158,7 @@
             </objects>
             <point key="canvasLocation" x="1243" y="163"/>
         </scene>
-        <!--Tweet View Controller-->
+        <!--Home-->
         <scene sceneID="LKX-Jo-JJl">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="YOL-Oe-4VE" customClass="TweetViewController" customModule="Twitter" customModuleProvider="target" sceneMemberID="viewController">
@@ -185,15 +185,15 @@
                             <constraint firstItem="SSQ-TB-HZJ" firstAttribute="trailing" secondItem="V4u-fF-D7o" secondAttribute="trailing" constant="20" id="fsr-Kr-aig"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="3kf-yn-Tll">
+                    <navigationItem key="navigationItem" title="Home" id="3kf-yn-Tll">
                         <barButtonItem key="leftBarButtonItem" title="Cancel" style="plain" id="19p-Ak-XUm">
-                            <color key="tintColor" red="0.1137254902" green="0.63137254899999995" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <action selector="cancel:" destination="YOL-Oe-4VE" id="WKl-C4-qs7"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Post" style="plain" id="WNE-IS-dUe">
-                            <color key="tintColor" red="0.1137254902" green="0.63137254899999995" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <barButtonItem key="rightBarButtonItem" title="Tweet" style="plain" id="WNE-IS-dUe">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <action selector="tweet:" destination="YOL-Oe-4VE" id="3qa-Yg-Nub"/>
                             </connections>
@@ -217,7 +217,7 @@
                         <color key="barTintColor" red="0.078431372549019607" green="0.090196078431372548" blue="0.10196078431372549" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
-                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
                     </navigationBar>
                     <connections>
@@ -239,7 +239,7 @@
                         <color key="barTintColor" red="0.078431372549019607" green="0.090196078431372548" blue="0.10196078431372549" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
-                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
